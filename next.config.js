@@ -4,7 +4,14 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },
+  images: { 
+    unoptimized: true 
+  },
+  experimental: {
+    turbo: {
+      // Enable Turbopack for faster builds in development
+    }
+  }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
