@@ -86,13 +86,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-amber-50">
+    <div className="min-h-screen bg-camponesa-creme">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-amber-900 font-dancing-script">
+              <h1 className="text-2xl font-bold text-camponesa-rose font-dancing-script">
                 A Camponesa
               </h1>
             </div>
@@ -102,35 +102,35 @@ export default function Home() {
               <div className="ml-10 flex items-baseline space-x-8">
                 <a
                   href="#home"
-                  className="text-amber-900 hover:text-amber-700 transition-colors"
+                  className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="text-amber-900 hover:text-amber-700 transition-colors"
+                  className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
                 >
                   About
                 </a>
                 <a
                   href="#products"
-                  className="text-amber-900 hover:text-amber-700 transition-colors"
+                  className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
                 >
                   Products
                 </a>
                 <a
                   href="#gallery"
-                  className="text-amber-900 hover:text-amber-700 transition-colors"
+                  className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
                 >
                   Gallery
                 </a>
                 <a
                   href="#contact"
-                  className="text-amber-900 hover:text-amber-700 transition-colors"
+                  className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
                 >
                   Contact
                 </a>
-                <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+                <Button className="bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
                   Order Now
                 </Button>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-amber-900 hover:text-amber-700"
+                className="text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -154,36 +154,36 @@ export default function Home() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a
                 href="#home"
-                className="block px-3 py-2 text-amber-900 hover:text-amber-700"
+                className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 Home
               </a>
               <a
                 href="#about"
-                className="block px-3 py-2 text-amber-900 hover:text-amber-700"
+                className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 About
               </a>
               <a
                 href="#products"
-                className="block px-3 py-2 text-amber-900 hover:text-amber-700"
+                className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 Products
               </a>
               <a
                 href="#gallery"
-                className="block px-3 py-2 text-amber-900 hover:text-amber-700"
+                className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 Gallery
               </a>
               <a
                 href="#contact"
-                className="block px-3 py-2 text-amber-900 hover:text-amber-700"
+                className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
               >
                 Contact
               </a>
               <div className="px-3 py-2">
-                <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                <Button className="w-full bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
                   Order Now
                 </Button>
               </div>
@@ -220,14 +220,14 @@ export default function Home() {
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Button
               size="lg"
-              className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 text-lg"
+              className="bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white px-8 py-3 text-lg"
             >
               See Our Products
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-amber-900 px-8 py-3 text-lg"
+              className="border-white text-white hover:bg-white hover:text-camponesa-rose px-8 py-3 text-lg"
             >
               Order Now
             </Button>
@@ -240,7 +240,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-dancing-script text-amber-900 mb-6">
+              <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-6">
                 Our Story
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -269,11 +269,11 @@ export default function Home() {
                 width={800}
                 height={600}
               />
-              <div className="absolute -bottom-6 -right-6 bg-amber-100 p-6 rounded-lg shadow-lg">
-                <p className="text-amber-900 font-semibold text-lg">
+              <div className="absolute -bottom-6 -right-6 bg-camponesa-creme-light p-6 rounded-lg shadow-lg border border-camponesa-lavanda">
+                <p className="text-camponesa-rose font-semibold text-lg">
                   Est. 1985
                 </p>
-                <p className="text-amber-700">40+ Years of Tradition</p>
+                <p className="text-camponesa-rose-dark">40+ Years of Tradition</p>
               </div>
             </div>
           </div>
@@ -281,10 +281,10 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-16 md:py-24 bg-amber-50">
+      <section id="products" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-dancing-script text-amber-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
               Our Specialties
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
@@ -297,7 +297,7 @@ export default function Home() {
             {products.map((product, index) => (
               <Card
                 key={index}
-                className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-camponesa-lavanda"
               >
                 <div className="aspect-w-16 aspect-h-12">
                   <Image
@@ -309,11 +309,11 @@ export default function Home() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-amber-900 mb-2">
+                  <h3 className="text-xl font-semibold text-camponesa-rose mb-2">
                     {product.name}
                   </h3>
                   <p className="text-gray-600 mb-4">{product.description}</p>
-                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                  <Button className="w-full bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
                     Order Now
                   </Button>
                 </CardContent>
@@ -324,10 +324,10 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-16 md:py-24 bg-white">
+      <section id="gallery" className="py-16 md:py-24 bg-camponesa-creme">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-dancing-script text-amber-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
               Gallery
             </h2>
             <p className="text-xl text-gray-700">
@@ -355,10 +355,10 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 md:py-24 bg-amber-50">
+      <section id="contact" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-dancing-script text-amber-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
               Get In Touch
             </h2>
             <p className="text-xl text-gray-700">
@@ -368,9 +368,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white shadow-lg border-camponesa-lavanda">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold text-amber-900 mb-6">
+                <h3 className="text-2xl font-semibold text-camponesa-rose mb-6">
                   Send us a message
                 </h3>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -430,7 +430,7 @@ export default function Home() {
                   </div>
                   <Button
                     type="submit"
-                    className="w-full bg-amber-600 hover:bg-amber-700 text-white"
+                    className="w-full bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white"
                   >
                     Send Message
                   </Button>
@@ -440,14 +440,14 @@ export default function Home() {
 
             {/* Contact Information */}
             <div className="space-y-8">
-              <Card className="bg-white shadow-lg">
+              <Card className="bg-white shadow-lg border-camponesa-lavanda">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-semibold text-amber-900 mb-6">
+                  <h3 className="text-2xl font-semibold text-camponesa-rose mb-6">
                     Visit Our Bakery
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
-                      <MapPin className="text-amber-600 mt-1" size={20} />
+                      <MapPin className="text-camponesa-terracota mt-1" size={20} />
                       <div>
                         <p className="font-medium text-gray-900">Address</p>
                         <p className="text-gray-600">
@@ -458,21 +458,21 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Phone className="text-amber-600 mt-1" size={20} />
+                      <Phone className="text-camponesa-terracota mt-1" size={20} />
                       <div>
                         <p className="font-medium text-gray-900">Phone</p>
                         <p className="text-gray-600">(555) 123-4567</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Mail className="text-amber-600 mt-1" size={20} />
+                      <Mail className="text-camponesa-terracota mt-1" size={20} />
                       <div>
                         <p className="font-medium text-gray-900">Email</p>
                         <p className="text-gray-600">hello@acamponesa.com</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Clock className="text-amber-600 mt-1" size={20} />
+                      <Clock className="text-camponesa-terracota mt-1" size={20} />
                       <div>
                         <p className="font-medium text-gray-900">
                           Opening Hours
@@ -488,7 +488,7 @@ export default function Home() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-amber-600 text-white shadow-lg">
+              <Card className="bg-camponesa-musgo text-white shadow-lg">
                 <CardContent className="p-8 text-center">
                   <h3 className="text-2xl font-semibold mb-4">
                     Order via WhatsApp
@@ -508,7 +508,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 md:py-24 bg-amber-900 text-white">
+      <section className="py-16 md:py-24 bg-camponesa-rose text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-dancing-script mb-6">
             Order Your Homemade Delight Now
@@ -520,14 +520,14 @@ export default function Home() {
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Button
               size="lg"
-              className="bg-amber-600 hover:bg-amber-500 text-white px-8 py-3 text-lg"
+              className="bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white px-8 py-3 text-lg"
             >
               Place Your Order
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-amber-900 px-8 py-3 text-lg"
+              className="border-white text-white hover:bg-white hover:text-camponesa-rose px-8 py-3 text-lg"
             >
               Call Now: (555) 123-4567
             </Button>
@@ -536,31 +536,31 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-amber-950 text-white py-12">
+      <footer className="bg-camponesa-musgo text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <h3 className="text-3xl font-dancing-script mb-4">A Camponesa</h3>
-              <p className="text-amber-100 mb-4 max-w-md">
+              <p className="text-camponesa-creme mb-4 max-w-md">
                 Your neighborhood artisanal bakery, committed to bringing you
                 the finest traditional baked goods made with love and expertise.
               </p>
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="text-amber-200 hover:text-white transition-colors"
+                  className="text-camponesa-creme hover:text-white transition-colors"
                 >
                   <Facebook size={24} />
                 </a>
                 <a
                   href="#"
-                  className="text-amber-200 hover:text-white transition-colors"
+                  className="text-camponesa-creme hover:text-white transition-colors"
                 >
                   <Instagram size={24} />
                 </a>
                 <a
                   href="#"
-                  className="text-amber-200 hover:text-white transition-colors"
+                  className="text-camponesa-creme hover:text-white transition-colors"
                 >
                   <MessageCircle size={24} />
                 </a>
@@ -569,7 +569,7 @@ export default function Home() {
 
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-amber-100">
+              <ul className="space-y-2 text-camponesa-creme">
                 <li>
                   <a
                     href="#home"
@@ -607,7 +607,7 @@ export default function Home() {
 
             <div>
               <h4 className="text-lg font-semibold mb-4">Opening Hours</h4>
-              <div className="text-amber-100 space-y-1">
+              <div className="text-camponesa-creme space-y-1">
                 <p>Monday - Friday</p>
                 <p className="font-medium">6:00 AM - 7:00 PM</p>
                 <p className="mt-2">Saturday - Sunday</p>
@@ -616,7 +616,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-amber-800 mt-8 pt-8 text-center text-amber-200">
+          <div className="border-t border-camponesa-musgo-light mt-8 pt-8 text-center text-camponesa-creme">
             <p>
               &copy; 2024 A Camponesa Bakery. All rights reserved. | Artisanal
               breads, traditional pastries, homemade sweets

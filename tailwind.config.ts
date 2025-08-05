@@ -60,6 +60,23 @@ const config: Config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        camponesa: {
+          rose: '#a06973',
+          'rose-light': '#b88389',
+          'rose-dark': '#8a5761',
+          terracota: '#db8b75',
+          'terracota-light': '#e5a693',
+          'terracota-dark': '#c6705a',
+          lavanda: '#7d6383',
+          'lavanda-light': '#9a809f',
+          'lavanda-dark': '#674d6d',
+          creme: '#f3e6c7',
+          'creme-light': '#f7eed7',
+          'creme-dark': '#e8d4a3',
+          musgo: '#216a2e',
+          'musgo-light': '#4a8255',
+          'musgo-dark': '#1a5524',
+        },
       },
       keyframes: {
         'accordion-down': {
