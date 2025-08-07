@@ -11,7 +11,9 @@ import CallToActionSection from "@/src/components/CallToActionSection";
 import Footer from "@/src/components/Footer";
 
 export default function Home() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);  return (
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  return (
     <div className="min-h-screen bg-camponesa-creme">
       <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <HeroSection />

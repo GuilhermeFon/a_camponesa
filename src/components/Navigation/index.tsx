@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { Button } from "@/src/components/ui/button";
+import Image from "next/image";
 
 interface NavigationProps {
   isMenuOpen: boolean;
@@ -12,9 +13,13 @@ export default function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProp
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-camponesa-rose font-dancing-script">
-              A Camponesa
-            </h1>
+            <Image
+              src="/logo.png"
+              alt="A Camponesa Logo"
+              width={50}
+              height={50}
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
