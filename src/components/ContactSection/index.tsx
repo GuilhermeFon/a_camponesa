@@ -1,26 +1,37 @@
-import {Phone, MapPin} from "lucide-react";
+import {Phone, MapPin, MessageCircle} from "lucide-react";
 import {Card, CardContent} from "@/src/components/ui/card";
 import InstagramIcon from "@/src/assets/instagram.svg";
-import WhatsAppIcon from "@/src/assets/whatsapp.svg";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-16 md:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section 
+      id="contact" 
+      className="py-16 md:py-24 relative bg-white"
+      style={{
+        backgroundImage: 'url(/footer-background.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gray-800/80"></div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
+          <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-creme mb-4">
             Explore Nossos Sabores
           </h2>
-          <p className="text-xl text-gray-700">
+          <p className="text-xl text-camponesa-creme">
             O sabor da infância em cada pedaço
           </p>
         </div>
 
-        <Card className="bg-white shadow-lg border-camponesa-lavanda">
-          <CardContent className="p-8">
+        <Card className="bg-transparent shadow-none border-none">
+          <CardContent className="p-4">
             <div className="flex flex-col md:flex-row md:justify-between gap-12">
               <div className="w-full md:max-w-lg">
-                <h3 className="text-2xl font-semibold text-camponesa-rose mb-6">
+                <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
                   Entre em Contato
                 </h3>
                 <div className="space-y-4">
@@ -30,8 +41,8 @@ export default function ContactSection() {
                       size={20}
                     />
                     <div>
-                      <p className="text-gray-600 font-semibold">Endereço</p>
-                      <p className="text-gray-600">
+                      <p className="text-camponesa-creme font-semibold">Endereço</p>
+                      <p className="text-camponesa-creme">
                         Curitiba - PR
                         <br />
                         Capão Raso
@@ -44,8 +55,8 @@ export default function ContactSection() {
                       size={20}
                     />
                     <div>
-                      <p className="font-semibold text-gray-600">Telefone</p>
-                      <p className="text-gray-600">(41) 98460-2341</p>
+                      <p className="font-semibold text-camponesa-creme">Telefone</p>
+                      <p className="text-camponesa-creme">(41) 98460-2341</p>
                     </div>
                   </div>
 
@@ -56,16 +67,16 @@ export default function ContactSection() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="WhatsApp"
-                        className="text-camponesa-terracota hover:text-camponesa-rose transition-colors"
+                        className="text-camponesa-terracota hover:text-camponesa-creme transition-colors"
                       >
-                        <WhatsAppIcon size={20} />
+                        <MessageCircle size={24} />
                       </a>
                       <a
                         href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
-                        className="text-camponesa-terracota hover:text-camponesa-rose transition-colors"
+                        className="text-camponesa-terracota hover:text-camponesa-creme transition-colors"
                       >
                         <InstagramIcon size={20} />
                       </a>
@@ -76,21 +87,21 @@ export default function ContactSection() {
 
               <div className="w-full md:max-w-lg">
                 <div className="w-fit place-items-center">
-                  <h3 className="text-2xl font-semibold text-camponesa-rose mb-6">
+                  <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
                     Funcionamento
                   </h3>
                   <div className="flex flex-col items-start space-y-4">
                     <div className="text-center">
-                      <p className="text-gray-600 font-semibold">
+                      <p className="text-camponesa-creme font-semibold">
                         Segunda - Sexta
                       </p>
-                      <p className="text-gray-600">8am - 11pm</p>
+                      <p className="text-camponesa-creme">8am - 11pm</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-gray-600 font-semibold">
+                      <p className="text-camponesa-creme font-semibold">
                         Sabádo - Domingo
                       </p>
-                      <p className="text-gray-600">11am - 11pm</p>
+                      <p className="text-camponesa-creme">11am - 11pm</p>
                     </div>
                   </div>
                 </div>
