@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Button } from "@/src/components/ui/button";
-import { Card, CardContent } from "@/src/components/ui/card";
+import {Button} from "@/src/components/ui/button";
+import {Card, CardContent} from "@/src/components/ui/card";
 
 const products = [
   {
@@ -37,8 +37,7 @@ const products = [
   },
   {
     name: "Seasonal Fruit Tarts",
-    description:
-      "Delicate pastry filled with fresh seasonal fruits and cream",
+    description: "Delicate pastry filled with fresh seasonal fruits and cream",
     image:
       "https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
@@ -46,13 +45,13 @@ const products = [
 
 export default function ProductsSection() {
   return (
-    <section id="products" className="py-16 md:py-24 bg-white">
+    <section id="products" className="py-16 md:py-24 bg-[#582B26]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
-            Our Specialties
+          <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-creme mb-4">
+            Nossas Especialidades
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="text-xl text-camponesa-creme-light max-w-3xl mx-auto">
             Each product is lovingly crafted using traditional methods and the
             finest ingredients
           </p>
@@ -62,7 +61,7 @@ export default function ProductsSection() {
           {products.map((product, index) => (
             <Card
               key={index}
-              className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-camponesa-lavanda"
+              className="bg-camponesa-creme-dark shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-camponesa-lavanda"
             >
               <div className="aspect-w-16 aspect-h-12">
                 <Image
@@ -74,11 +73,11 @@ export default function ProductsSection() {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-camponesa-rose mb-2">
+                <h3 className="text-xl font-semibold text-[#582B26] mb-2">
                   {product.name}
                 </h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <Button className="w-full bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
+                <Button className="w-full bg-[#582B26] hover:bg-[#4E1F1C] text-white font-semibold">
                   Order Now
                 </Button>
               </CardContent>

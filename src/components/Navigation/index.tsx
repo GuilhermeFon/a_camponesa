@@ -1,24 +1,23 @@
-import { Menu, X } from "lucide-react";
-import { Button } from "@/src/components/ui/button";
+"use client";
+
+import {Menu, X} from "lucide-react";
+import {Button} from "@/src/components/ui/button";
 import Image from "next/image";
+import {useState} from "react";
 
-interface NavigationProps {
-  isMenuOpen: boolean;
-  setIsMenuOpen: (open: boolean) => void;
-}
+export default function Navigation() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProps) {
   return (
-    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed top-0 w-full bg-[#471815] z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Image
               src="/logo.png"
               alt="A Camponesa Logo"
-              width={50}
-              height={50}
-              className="h-12 w-auto"
+              width={60}
+              height={53}
             />
           </div>
 
@@ -27,37 +26,37 @@ export default function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProp
             <div className="ml-10 flex items-baseline space-x-8">
               <a
                 href="#home"
-                className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
+                className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                Home
+                Inicio
               </a>
               <a
                 href="#about"
-                className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
+                className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                About
+                Sobre
               </a>
               <a
                 href="#products"
-                className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
+                className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                Products
+                Produtos
               </a>
               <a
                 href="#gallery"
-                className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
+                className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                Gallery
+                Galeria
               </a>
               <a
                 href="#contact"
-                className="text-camponesa-rose hover:text-camponesa-rose-dark transition-colors"
+                className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                Contact
+                Contato
               </a>
-              <Button className="bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
-                Order Now
-              </Button>
+              {/* <Button className="bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
+                Pedir Agora
+              </Button> */}
             </div>
           </div>
 
@@ -65,7 +64,7 @@ export default function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProp
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -79,39 +78,39 @@ export default function Navigation({ isMenuOpen, setIsMenuOpen }: NavigationProp
           <div className="px-2 pt-2 pb-3 space-y-1">
             <a
               href="#home"
-              className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              Home
+              Inicio
             </a>
             <a
               href="#about"
-              className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              About
+              Sobre
             </a>
             <a
               href="#products"
-              className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              Products
+              Produtos
             </a>
             <a
               href="#gallery"
-              className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              Gallery
+              Galeria
             </a>
             <a
               href="#contact"
-              className="block px-3 py-2 text-camponesa-rose hover:text-camponesa-rose-dark"
+              className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              Contact
+              Contato
             </a>
-            <div className="px-3 py-2">
+            {/* <div className="px-3 py-2">
               <Button className="w-full bg-camponesa-terracota hover:bg-camponesa-terracota-dark text-white">
-                Order Now
+                Pedir Agora
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       )}

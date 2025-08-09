@@ -15,7 +15,7 @@ export default function GallerySection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
-            Gallery
+            Galeria
           </h2>
           <p className="text-xl text-gray-700">
             A glimpse into our bakery and the magic we create daily

@@ -11,7 +11,15 @@ const nextConfig = {
     turbo: {
       // Enable Turbopack for faster builds in development
     }
-  }
+  },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
+
+    return config;
+  },
 };
 
 export default nextConfig;
