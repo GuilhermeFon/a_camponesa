@@ -1,6 +1,7 @@
 import {Phone, MapPin, MessageCircle} from "lucide-react";
 import {Card, CardContent} from "@/src/components/ui/card";
 import InstagramIcon from "@/src/assets/instagram.svg";
+import WhatsappIcon from "@/src/assets/whatsapp.svg";
 
 export default function ContactSection() {
   return (
@@ -43,9 +44,7 @@ export default function ContactSection() {
                     <div>
                       <p className="text-camponesa-creme font-semibold">Endereço</p>
                       <p className="text-camponesa-creme">
-                        Curitiba - PR
-                        <br />
-                        Capão Raso
+                        Capão Raso, Curitiba - PR
                       </p>
                     </div>
                   </div>
@@ -69,10 +68,10 @@ export default function ContactSection() {
                         aria-label="WhatsApp"
                         className="text-camponesa-terracota hover:text-camponesa-creme transition-colors"
                       >
-                        <MessageCircle size={24} />
+                        <WhatsappIcon size={24} />
                       </a>
                       <a
-                        href="#"
+                        href="https://www.instagram.com/acamponesaconfeitaria/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"

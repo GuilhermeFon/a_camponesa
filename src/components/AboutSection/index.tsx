@@ -11,21 +11,21 @@ export default function AboutSection() {
               Nossa História
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              A Camponesa was born from a love of traditional baking and the
-              desire to bring authentic, homemade flavors to our community. Our
-              story begins in the countryside, where generations of bakers
-              perfected recipes that have been passed down through families.
+              A Camponesa nasceu do sonho de uma moça do interior que trouxe para
+              a cidade grande não apenas receitas, mas o afeto e as memórias da 
+              cozinha de sua avó. 
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Every morning, we wake before dawn to knead dough, shape loaves,
-              and fill our ovens with the aromatic promise of fresh bread. We
-              use only the finest ingredients, sourced locally when possible,
-              and never compromise on quality or tradition.
+              Acreditamos que um doce tem o poder de transportar você para os 
+              momentos mais felizes. Lembra daquele cheirinho de bolo saindo do 
+              forno que trazia um conforto imediato? É exatamente essa sensação 
+              que colocamos em tudo o que fazemos. 
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              When you step into our bakery, you not just buying bread – you
-              becoming part of our extended family, sharing in the comfort and
-              joy that comes from food made with love.
+              Mais do que bolos e doces, criamos experiências. Cada ingrediente é 
+              selecionado com cuidado e cada receita é feita com o carinho de 
+              antigamente, para que você receba em sua casa um pedaço de afeto, 
+              com sabor de memória.
             </p>
           </div>
           <div className="relative">
