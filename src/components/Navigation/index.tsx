@@ -74,7 +74,7 @@ export default function Navigation() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div className="md:hidden bg-[#471815]">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <a
               href="#home"
