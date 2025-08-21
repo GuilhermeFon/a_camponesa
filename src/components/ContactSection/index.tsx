@@ -7,7 +7,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-16 md:py-24 relative bg-white"
+      className="py-10 md:py-24 relative bg-white"
       style={{
         backgroundImage: "url(/footer-background.png)",
         backgroundSize: "cover",
@@ -19,7 +19,7 @@ export default function ContactSection() {
       <div className="absolute inset-0 bg-gray-800/80"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-creme mb-4">
             Explore Nossos Sabores
           </h2>
@@ -28,7 +28,25 @@ export default function ContactSection() {
           </p>
         </div>
 
-        <div className="bg-transparent shadow-none border-none flex flex-col md:flex-row justify-center gap-32 p-4">
+        <div className="bg-transparent shadow-none border-none mb-14 sm:mb-0 flex flex-col md:flex-row justify-center items-center gap-12 md:gap-32">
+          <div className="w-fit place-items-center">
+            <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
+              Funcionamento
+            </h3>
+            <div className="flex flex-col space-y-4 items-center">
+              <div className="text-center">
+                <p className="text-camponesa-creme font-semibold">
+                  Segunda - Sexta
+                </p>
+                <p className="text-camponesa-creme">8:00 - 18:00</p>
+              </div>
+              <div className="text-center">
+                <p className="text-camponesa-creme font-semibold">Sabádo</p>
+                <p className="text-camponesa-creme">8:00 - 12:00</p>
+              </div>
+            </div>
+          </div>
+
           <div className="w-fit">
             <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
               Entre em Contato
@@ -51,7 +69,7 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="pt-4 flex items-center gap-4">
+              <div className="flex items-center gap-4">
                 <a
                   href="https://wa.me/5541984602341"
                   target="_blank"
@@ -73,39 +91,25 @@ export default function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="w-fit place-items-center">
-            <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
-              Funcionamento
-            </h3>
-            <div className="flex flex-col items-start space-y-4 md:items-center">
-              <div className="text-center">
-                <p className="text-camponesa-creme font-semibold">
-                  Segunda - Sexta
-                </p>
-                <p className="text-camponesa-creme">8:00 - 18:00</p>
-              </div>
-              <div className="text-center">
-                <p className="text-camponesa-creme font-semibold">Sabádo</p>
-                <p className="text-camponesa-creme">8:00 - 12:00</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 text-white">
-        <p className="text-sm text-camponesa-creme">
-          © 2025 A Camponesa | Todos os direitos reservados. | Desenvolvido por{" "}
-          <a
-            href="https://studiosilo.com.br"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-camponesa-creme font-semibold transition-colors duration-200"
-          >
-            SILO
-          </a>
-        </p>
+      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 text-white px-4 w-full">
+        <div className="text-sm sm:text-sm text-camponesa-creme text-center flex flex-col sm:block">
+          <span>© 2025 A Camponesa | Todos os direitos reservados.</span>
+          <span>
+            Desenvolvido por{" "}
+            <a
+              href="https://studiosilo.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-camponesa-creme font-semibold transition-colors duration-200"
+            >
+              SILO
+            </a>
+          </span>
+        </div>
       </div>
     </section>
   );
