@@ -7,7 +7,7 @@ import AlfajoresImage from "@/public/products/Alfajores.png";
 import ChocolateQuenteImage from "@/public/products/ChocolateQuente.png";
 
 
-const products = [
+  const products = [
   {
     name: "Brownies",
     description:
@@ -57,8 +57,7 @@ export default function ProductsSection() {
             Nossas Especialidades
           </h2>
           <p className="text-xl text-camponesa-creme-light max-w-3xl mx-auto">
-            Each product is lovingly crafted using traditional methods and the
-            finest ingredients
+            "Cada producto é feito com carinho, utilizando métodos tradicionais e os melhores ingredientes."
           </p>
         </div>
 

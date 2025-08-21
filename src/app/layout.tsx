@@ -3,14 +3,14 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'A Camponesa - Confeitaria Artesanal',
-  description: 'Experience the taste of home at A Camponesa, your local artisanal bakery. We craft traditional breads, cakes, pies, and pastries using time-honored family recipes.',
-  keywords: 'bakery, artisanal bread, homemade cakes, traditional pastries, family recipes, countryside bakery, fresh baked goods',
-  authors: [{ name: 'A Camponesa Bakery' }],
+  description: 'Experimente o sabor de casa na A Camponesa, sua padaria artesanal local. Nós fazemos pães tradicionais, bolos, tortas e doces usando receitas de família consagradas pelo tempo.',
+  keywords: ['padaria', 'pão artesanal', 'bolos caseiros', 'doces tradicionais', 'receitas de família', 'padaria do interior', 'pães frescos', 'doces', 'brownies', 'alfajores', 'chocolate quente', 'cookies', 'confeitaria artesanal', 'confeitaria local', 'confeitaria Curitiba', 'padaria Curitiba'],
+  authors: [{ name: 'A Camponesa Confeitaria' }],
   openGraph: {
-    title: 'A Camponesa - Artisanal Bakery',
-    description: 'Bringing the taste of home to your table with our handcrafted baked goods',
+    title: 'A Camponesa - Confeitaria Artesanal',
+    description: 'Levando o sabor de casa para a sua mesa com nossos produtos de panificação artesanais.',
     type: 'website',
-    locale: 'en_US',
+    locale: 'pt_BR',
   },
   robots: 'index, follow',
 };

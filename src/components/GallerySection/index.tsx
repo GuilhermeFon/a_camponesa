@@ -1,14 +1,19 @@
 import Image from "next/image";
 import Pascoa01Image from "@/public/collections/Pascoa01.png";
 import Pascoa02Image from "@/public/collections/Pascoa02.png";
+import Natal01Image from "@/public/collections/Natal01.png";
+import Natal02Image from "@/public/collections/Natal02.png";
+import Namorados01Image from "@/public/collections/Namorados01.png";
+import Namorados02Image from "@/public/collections/Namorados02.png";
+
 
 const galleryImages = [
   Pascoa01Image,
-  "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600",
+  Natal01Image,
+  Namorados01Image,
   Pascoa02Image,
-  "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg?auto=compress&cs=tinysrgb&w=600",
+  Natal02Image,
+  Namorados02Image,
 ];
 
 export default function GallerySection() {
