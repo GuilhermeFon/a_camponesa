@@ -56,8 +56,8 @@ export default function ProductsSection() {
             Nossas Especialidades
           </h2>
           <p className="text-xl text-camponesa-creme-light max-w-3xl mx-auto">
-            "Cada producto é feito com carinho, utilizando métodos tradicionais
-            e os melhores ingredientes."
+            &quot;Cada producto é feito com carinho, utilizando métodos
+            tradicionais e os melhores ingredientes.&quot;
           </p>
         </div>
 
@@ -85,16 +85,16 @@ export default function ProductsSection() {
             </Card>
           ))}
         </div>
-      </div>
-      <div className="flex w-full justify-center items-center space-x-3">
-        <a
-          href="https://wa.me/5541984602341?text=Olá! Gostaria de saber mais sobre os produtos da Camponesa."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#F3E6C7] hover:bg-[#E8D4A3] text-[#582B26] font-semibold transition-colors px-4 mt-4 w-96 h-16 text-2xl text-center content-center rounded-md"
-        >
-          Pedir agora
-        </a>
+        <div className="flex w-full justify-center items-center space-x-3">
+          <a
+            href="https://wa.me/5541984602341?text=Olá! Gostaria de saber mais sobre os produtos da Camponesa."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#F3E6C7] hover:bg-[#E8D4A3] text-[#582B26] font-semibold transition-colors px-4 mt-4 w-96 h-16 text-2xl text-center content-center rounded-md"
+          >
+            Pedir agora
+          </a>
+        </div>
       </div>
     </section>
   );
