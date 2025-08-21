@@ -4,43 +4,43 @@ import {Card, CardContent} from "@/src/components/ui/card";
 
 const products = [
   {
-    name: "Artisan Sourdough",
+    name: "Brownies",
     description:
-      "Traditional sourdough bread with a perfect crust and tender crumb",
+      "Perfeitamente denso e fudgy por dentro, com uma casquinha crocante e irresistível por fora.",
     image:
-      "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/31720389/pexels-photo-31720389.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Homemade Apple Pie",
+    name: "Bolos Tradicionais",
     description:
-      "Classic apple pie made with fresh apples and grandmother's recipe",
+      "Bolos com gostinho de infância, feitos com ingredientes selecionados e muito carinho para o seu dia a dia.",
     image:
       "https://images.pexels.com/photos/7937035/pexels-photo-7937035.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Fresh Croissants",
-    description: "Buttery, flaky croissants baked fresh every morning",
+    name: "Bolos Gourmet",
+    description: "Cada bolo criado com combinações de sabores e texturas inesquecíveis",
     image:
-      "https://images.pexels.com/photos/2135677/pexels-photo-2135677.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/18613264/pexels-photo-18613264.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Chocolate Chip Cookies",
-    description: "Soft, chewy cookies loaded with premium chocolate chips",
+    name: "Cookies Artesanais",
+    description: "Biscoitos recheados com generosas gotas de chocolate de alta qualidade.",
     image:
       "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Rustic Country Bread",
-    description: "Dense, hearty bread perfect for sandwiches or with butter",
+    name: "Alfajores",
+    description: "Biscoitos leves e amanteigados, unidos por uma camada generosa de doce de leite cremoso e banhados em chocolate.",
     image:
-      "https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
-    name: "Seasonal Fruit Tarts",
-    description: "Delicate pastry filled with fresh seasonal fruits and cream",
+    name: "Chocolate Quente Cremoso",
+    description: "Feita com chocolate nobre derretido, resultando em uma textura aveludada e um sabor incomparável.",
     image:
-      "https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=600",
-  },
+      "https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=600",
+  }
 ];
 
 export default function ProductsSection() {
@@ -77,9 +77,6 @@ export default function ProductsSection() {
                   {product.name}
                 </h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <Button className="w-full bg-[#582B26] hover:bg-[#4E1F1C] text-white font-semibold">
-                  Order Now
-                </Button>
               </CardContent>
             </Card>
           ))}

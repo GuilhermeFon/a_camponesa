@@ -14,11 +14,11 @@ export default function GallerySection() {
     <section id="gallery" className="py-16 md:py-24 bg-camponesa-creme">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-dancing-script text-camponesa-rose mb-4">
-            Galeria
+          <h2 className="text-4xl md:text-5xl font-dancing-script text-[#582B26] mb-6">
+            Coleções
           </h2>
           <p className="text-xl text-gray-700">
-            A glimpse into our bakery and the magic we create daily
+            "Para cada ocasião especial, uma coleção exclusiva de sabores feitos para encantar." 
           </p>
         </div>
 

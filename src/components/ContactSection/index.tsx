@@ -89,18 +89,18 @@ export default function ContactSection() {
                   <h3 className="text-2xl font-semibold text-camponesa-creme mb-6">
                     Funcionamento
                   </h3>
-                  <div className="flex flex-col items-start space-y-4">
+                  <div className="flex flex-col items-start space-y-4 md:items-center">
                     <div className="text-center">
                       <p className="text-camponesa-creme font-semibold">
                         Segunda - Sexta
                       </p>
-                      <p className="text-camponesa-creme">8am - 11pm</p>
+                      <p className="text-camponesa-creme">8:00 - 18:00</p>
                     </div>
                     <div className="text-center">
                       <p className="text-camponesa-creme font-semibold">
-                        Sabádo - Domingo
+                        Sabádo
                       </p>
-                      <p className="text-camponesa-creme">11am - 11pm</p>
+                      <p className="text-camponesa-creme">8:00 - 12:00</p>
                     </div>
                   </div>
                 </div>

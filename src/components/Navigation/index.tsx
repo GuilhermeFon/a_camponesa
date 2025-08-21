@@ -46,7 +46,7 @@ export default function Navigation() {
                 href="#gallery"
                 className="text-camponesa-creme hover:text-camponesa-rose-dark font-semibold transition-colors"
               >
-                Galeria
+                Coleções
               </a>
               <a
                 href="#contact"
@@ -98,7 +98,7 @@ export default function Navigation() {
               href="#gallery"
               className="block px-3 py-2 text-camponesa-creme hover:text-camponesa-rose-dark font-semibold"
             >
-              Galeria
+              Coleções
             </a>
             <a
               href="#contact"
