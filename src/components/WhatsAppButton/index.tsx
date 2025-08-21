@@ -23,7 +23,7 @@ export default function WhatsAppButton({
         className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 group"
         aria-label="Entrar em contato via WhatsApp"
       >
-        <WhatsappIcon className="w-8 h-8" />
+        <WhatsappIcon size={24} />
       </button>
     </div>
   );
