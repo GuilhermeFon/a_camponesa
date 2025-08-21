@@ -5,7 +5,7 @@ import Natal01Image from "@/public/collections/Natal01.png";
 import Natal02Image from "@/public/collections/Natal02.png";
 import Namorados01Image from "@/public/collections/Namorados01.png";
 import Namorados02Image from "@/public/collections/Namorados02.png";
-
+import Button from "@/src/components/Button";
 
 const galleryImages = [
   Pascoa01Image,
@@ -25,7 +25,8 @@ export default function GallerySection() {
             Coleções
           </h2>
           <p className="text-xl text-gray-700">
-            "Para cada ocasião especial, uma coleção exclusiva de sabores feitos para encantar." 
+            "Para cada ocasião especial, uma coleção exclusiva de sabores feitos
+            para encantar."
           </p>
         </div>
 
@@ -44,6 +45,16 @@ export default function GallerySection() {
               />
             </div>
           ))}
+        </div>
+        <div className="flex w-full justify-center items-center space-x-3">
+          <a
+            href="https://wa.me/5541984602341?text=Olá! Gostaria de saber mais sobre os produtos da Camponesa."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#582B26] hover:bg-[#471815] text-white font-semibold transition-colors px-4 mt-4 w-96 h-16 text-2xl text-center content-center rounded-md"
+          >
+            Quero algo especial
+          </a>
         </div>
       </div>
     </section>

@@ -1,51 +1,50 @@
 import Image from "next/image";
-import {Button} from "@/src/components/ui/button";
-import {Card, CardContent} from "@/src/components/ui/card";
+import { Button } from "@/src/components/ui/button";
+import { Card, CardContent } from "@/src/components/ui/card";
 import BrowniesImage from "@/public/products/Brownies.png";
 import BoloTradicionalImage from "@/public/products/BoloTradicional.png";
 import AlfajoresImage from "@/public/products/Alfajores.png";
 import ChocolateQuenteImage from "@/public/products/ChocolateQuente.png";
 
-
-  const products = [
+const products = [
   {
     name: "Brownies",
     description:
       "Perfeitamente denso e fudgy por dentro, com uma casquinha crocante e irresistível por fora.",
-    image:
-      BrowniesImage,
+    image: BrowniesImage,
   },
   {
     name: "Bolos Tradicionais",
     description:
       "Bolos com gostinho de infância, feitos com ingredientes selecionados e muito carinho para o seu dia a dia.",
-    image:
-      BoloTradicionalImage,
+    image: BoloTradicionalImage,
   },
   {
     name: "Bolos Gourmet",
-    description: "Cada bolo criado com combinações de sabores e texturas inesquecíveis",
+    description:
+      "Cada bolo criado com combinações de sabores e texturas inesquecíveis",
     image:
       "https://images.pexels.com/photos/18613264/pexels-photo-18613264.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     name: "Cookies Artesanais",
-    description: "Biscoitos recheados com generosas gotas de chocolate de alta qualidade.",
+    description:
+      "Biscoitos recheados com generosas gotas de chocolate de alta qualidade.",
     image:
       "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     name: "Alfajores",
-    description: "Biscoitos leves e amanteigados, unidos por uma camada generosa de doce de leite cremoso e banhados em chocolate.",
-    image:
-      AlfajoresImage,
+    description:
+      "Biscoitos leves e amanteigados, unidos por uma camada generosa de doce de leite cremoso e banhados em chocolate.",
+    image: AlfajoresImage,
   },
   {
     name: "Chocolate Quente Cremoso",
-    description: "Feita com chocolate nobre derretido, resultando em uma textura aveludada e um sabor incomparável.",
-    image:
-      ChocolateQuenteImage,
-  }
+    description:
+      "Feita com chocolate nobre derretido, resultando em uma textura aveludada e um sabor incomparável.",
+    image: ChocolateQuenteImage,
+  },
 ];
 
 export default function ProductsSection() {
@@ -57,7 +56,8 @@ export default function ProductsSection() {
             Nossas Especialidades
           </h2>
           <p className="text-xl text-camponesa-creme-light max-w-3xl mx-auto">
-            "Cada producto é feito com carinho, utilizando métodos tradicionais e os melhores ingredientes."
+            "Cada producto é feito com carinho, utilizando métodos tradicionais
+            e os melhores ingredientes."
           </p>
         </div>
 
@@ -85,6 +85,16 @@ export default function ProductsSection() {
             </Card>
           ))}
         </div>
+      </div>
+      <div className="flex w-full justify-center items-center space-x-3">
+        <a
+          href="https://wa.me/5541984602341?text=Olá! Gostaria de saber mais sobre os produtos da Camponesa."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#F3E6C7] hover:bg-[#E8D4A3] text-[#582B26] font-semibold transition-colors px-4 mt-4 w-96 h-16 text-2xl text-center content-center rounded-md"
+        >
+          Pedir agora
+        </a>
       </div>
     </section>
   );

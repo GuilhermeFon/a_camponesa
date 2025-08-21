@@ -18,6 +18,11 @@ export default function Navigation() {
           width={60}
           height={53}
         />
+        <p>
+          <span className="text-camponesa-creme font-dancing-script text-2xl ml-2">
+            A Camponesa
+          </span> 
+        </p>
         </div>
 
         {/* Desktop Navigation */}
