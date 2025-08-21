@@ -1,6 +1,11 @@
 import Image from "next/image";
 import {Button} from "@/src/components/ui/button";
 import {Card, CardContent} from "@/src/components/ui/card";
+import BrowniesImage from "@/public/products/Brownies.png";
+import BoloTradicionalImage from "@/public/products/BoloTradicional.png";
+import AlfajoresImage from "@/public/products/Alfajores.png";
+import ChocolateQuenteImage from "@/public/products/ChocolateQuente.png";
+
 
 const products = [
   {
@@ -8,14 +13,14 @@ const products = [
     description:
       "Perfeitamente denso e fudgy por dentro, com uma casquinha crocante e irresistível por fora.",
     image:
-      "https://images.pexels.com/photos/31720389/pexels-photo-31720389.jpeg?auto=compress&cs=tinysrgb&w=600",
+      BrowniesImage,
   },
   {
     name: "Bolos Tradicionais",
     description:
       "Bolos com gostinho de infância, feitos com ingredientes selecionados e muito carinho para o seu dia a dia.",
     image:
-      "https://images.pexels.com/photos/7937035/pexels-photo-7937035.jpeg?auto=compress&cs=tinysrgb&w=600",
+      BoloTradicionalImage,
   },
   {
     name: "Bolos Gourmet",
@@ -33,13 +38,13 @@ const products = [
     name: "Alfajores",
     description: "Biscoitos leves e amanteigados, unidos por uma camada generosa de doce de leite cremoso e banhados em chocolate.",
     image:
-      "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=600",
+      AlfajoresImage,
   },
   {
     name: "Chocolate Quente Cremoso",
     description: "Feita com chocolate nobre derretido, resultando em uma textura aveludada e um sabor incomparável.",
     image:
-      "https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=600",
+      ChocolateQuenteImage,
   }
 ];
 
